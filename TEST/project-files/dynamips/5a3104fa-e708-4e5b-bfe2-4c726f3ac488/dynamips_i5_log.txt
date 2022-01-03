@@ -1,0 +1,34 @@
+Nov 14 13:54:31.798 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 14 13:54:31.799 HYPERVISOR: Started on IP = localhost, TCP port = 15191.
+Nov 14 13:54:32.240 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 14 13:54:32.241 HYPERVISOR: exec_cmd: hypervisor working_dir E:\2-SIQ\SIQ\S1\2CS RESA\TP-TD\TP PGB\BGP-topo-student\project-files\dynamips 
+Nov 14 13:54:32.241 GENERAL: working_dir=E:\2-SIQ\SIQ\S1\2CS RESA\TP-TD\TP PGB\BGP-topo-student\project-files\dynamips
+Nov 14 13:54:32.242 HYPERVISOR: exec_cmd: hypervisor working_dir E:\2-SIQ\SIQ\S1\2CS RESA\TP-TD\TP PGB\BGP-topo-student\project-files\dynamips\a2d334b9-2456-4fa4-a09b-00fdca47afc5 
+Nov 14 13:54:32.242 GENERAL: working_dir=E:\2-SIQ\SIQ\S1\2CS RESA\TP-TD\TP PGB\BGP-topo-student\project-files\dynamips\a2d334b9-2456-4fa4-a09b-00fdca47afc5
+Nov 14 13:54:32.243 HYPERVISOR: exec_cmd: vm create R3 3 c7200 
+Nov 14 13:54:32.246 VM: VM R3 created.
+Nov 14 13:54:32.247 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5010 
+Nov 14 13:54:32.247 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+Nov 14 13:54:32.247 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 14 13:54:32.247 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+Nov 14 13:54:32.248 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Nov 14 13:54:32.248 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Nov 14 13:54:32.249 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 14 13:54:32.249 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x63184bc8 
+Nov 14 13:54:32.250 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/GZLI/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Nov 14 13:54:32.251 HYPERVISOR: exec_cmd: c7200 set_mac_addr R3 ca03.1ecc.0000 
+Nov 14 13:54:32.251 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+Nov 14 13:54:32.251 HYPERVISOR: exec_cmd: vm set_ram R3 512 
+Nov 14 13:54:32.251 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 14 13:54:32.251 HYPERVISOR: exec_cmd: vm slot_remove_binding R3 0 0 
+Nov 14 13:54:32.253 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 14 13:54:32.253 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-2FE 
+Nov 14 13:54:32.253 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 14 13:54:32.254 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-4T+ 
+Nov 14 13:54:34.349 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 14 13:54:34.352 HYPERVISOR: exec_cmd: vm extract_config R3 
+Nov 14 13:54:34.353 HYPERVISOR: exec_cmd: vm delete R3 
+Nov 14 13:54:34.354 VM: VM R3 destroyed.
+Nov 14 13:54:34.356 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 14 13:54:34.786 HYPERVISOR: Stopped.
+Nov 14 13:54:34.786 GENERAL: reset done.
